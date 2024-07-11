@@ -6,11 +6,11 @@ To enable this for your repo, install [pre-commit](https://pre-commit.com/#insta
 
 ```yaml
 repos:
-- repo: git://github.com/ari1988/pre-commit-conventional
-  rev: master
-  hooks:
-    -
-      id: conventional-commit-check
-      stages:
-        - commit-msg
+  - repo: https://github.com/ari1988/pre-commit-conventional
+    rev: 22efd2a
+    hooks:
+      - id: conventional-commit-check
+        stages: [commit-msg]
+        args: []
+
 ```
