@@ -22,8 +22,8 @@ fi
 
 echo -e "${RED}The commit message does not meet the Conventional Commit standard${RESET}"
 echo -e "${YELLOW}Format for a valid commit message is:${RESET}"
-echo "  ${GREEN}<type>: [Ticket Number] <description>${RESET}"
+echo -e "  ${GREEN}<type>: [Ticket Number] <description>${RESET}"
 echo -e "${YELLOW}An example of a valid message is:${RESET}"
-echo "  ${GREEN}feat: [AURA2-123] initial draft${RESET}"
+echo -e "  ${GREEN}feat: [AURA2-123] initial draft${RESET}"
 echo -e "${YELLOW}More details at: https://www.conventionalcommits.org/en/v1.0.0/#summary${RESET}"
 exit 1
