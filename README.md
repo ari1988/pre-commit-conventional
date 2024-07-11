@@ -7,7 +7,7 @@ To enable this for your repo, install [pre-commit](https://pre-commit.com/#insta
 ```yaml
 repos:
   - repo: https://github.com/ari1988/pre-commit-conventional
-    rev: 22efd2a
+    rev: 1860e61
     hooks:
       - id: conventional-commit-check
         stages: [commit-msg]
