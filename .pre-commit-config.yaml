@@ -1,0 +1,7 @@
+repos:
+  - repo: https://github.com/ari1988/pre-commit-conventional
+    rev: v1.0.2
+    hooks:
+      - id: conventional-commit-check
+        stages: [commit-msg]
+        args: []
