@@ -4,3 +4,10 @@
     language: 'script'
     description: "Checks that your 'git commit' matches the 'Conventional Commits' standard"
     always_run: true
+
+-   id: conventional-json-check
+    name: 'Conventional Commit Check'
+    entry: run-json-check.sh
+    language: 'script'
+    description: "Checks that your 'git commit' matches the 'Conventional Commits' standard"
+    always_run: true
